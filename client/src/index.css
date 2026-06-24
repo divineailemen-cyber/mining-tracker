@@ -1,0 +1,162 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background: #f4f3ee;
+  color: #2c2c2a;
+}
+
+.app-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.header h1 {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.header p {
+  font-size: 13px;
+  color: #5f5e5a;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.stat-card {
+  background: white;
+  border-radius: 10px;
+  padding: 16px;
+  border: 1px solid #e0ded5;
+}
+
+.stat-label {
+  font-size: 12px;
+  color: #5f5e5a;
+  margin-bottom: 4px;
+}
+
+.stat-value {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.main-grid {
+  display: grid;
+  grid-template-columns: 1.3fr 1fr;
+  gap: 16px;
+}
+
+.card {
+  background: white;
+  border-radius: 10px;
+  border: 1px solid #e0ded5;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.card h2 {
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+
+th {
+  text-align: left;
+  padding: 8px;
+  border-bottom: 2px solid #e0ded5;
+  color: #5f5e5a;
+}
+
+td {
+  padding: 8px;
+  border-bottom: 1px solid #f0efe9;
+}
+
+.score-badge {
+  padding: 3px 10px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.score-high { background: #eaf3de; color: #27500a; }
+.score-medium { background: #faeeda; color: #633806; }
+.score-low { background: #fcebeb; color: #791f1f; }
+
+button {
+  background: #1d9e75;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0f6e56;
+}
+
+button:disabled {
+  background: #b4b2a9;
+  cursor: not-allowed;
+}
+
+input[type="file"] {
+  margin-bottom: 10px;
+  font-size: 13px;
+}
+
+.upload-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.alert-banner {
+  background: #faeeda;
+  border: 1px solid #ef9f27;
+  color: #633806;
+  padding: 10px 14px;
+  border-radius: 8px;
+  font-size: 13px;
+  margin-bottom: 16px;
+}
+
+.leaflet-container {
+  height: 420px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.status-msg {
+  font-size: 13px;
+  color: #5f5e5a;
+  margin-top: 8px;
+}
