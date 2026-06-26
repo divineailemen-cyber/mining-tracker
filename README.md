@@ -118,4 +118,4 @@ The model is a Random Forest Regressor trained on synthetic data that encodes do
 
 ## Team
 
-Built by Divine Omoefe Ailemen with research collaborators Magi Emoemi Stephen, Abodunrin Ebenezer Oluwakayode, and Ogunboyo Patrick Taiwo.
+Built by Divine Omoefe Ailemen 
